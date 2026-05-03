@@ -137,6 +137,7 @@ C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\Projekt.AssemblyInf
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\Projekt.AssemblyInfo.cs
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\Projekt.csproj.CoreCompileInputs.cache
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\Projekt.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\Projekt.sourcelink.json
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -189,6 +190,7 @@ C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\compressed\qbdsuk1s
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\compressed\in0e890pxp-{0}-h1s4sie4z3-h1s4sie4z3.gz
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\compressed\strchv4gn9-{0}-63fj8s7r0e-63fj8s7r0e.gz
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\compressed\uez4rf5p12-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\compressed\hz8yx7zrvz-{0}-c4jizcf1nt-c4jizcf1nt.gz
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\compressed\vq5aquwdb3-{0}-abdmv1u4y3-abdmv1u4y3.gz
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\compressed\yyi0mjedmy-{0}-ax6tuj8tun-ax6tuj8tun.gz
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\compressed\95jtucmjhc-{0}-zr4b1gdhaw-zr4b1gdhaw.gz
@@ -205,4 +207,4 @@ C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\refint\Projekt.dll
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\Projekt.pdb
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\Projekt.genruntimeconfig.cache
 C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\ref\Projekt.dll
-C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\compressed\eo2we072ha-{0}-7urqzpuatr-7urqzpuatr.gz
+C:\Users\Marek\Desktop\BlazorProg4\Projekt\obj\Debug\net10.0\compressed\eo2we072ha-{0}-vbubh495go-vbubh495go.gz

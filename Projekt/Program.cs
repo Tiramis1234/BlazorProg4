@@ -1,28 +1,36 @@
+using Microsoft.EntityFrameworkCore;
 using Projekt.Components;
-using Tailwind;
+using Projekt.Data;
+using Projekt.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+var dbFileName = connectionString!.Replace("Data Source=", "");
+var dbPath = System.IO.Path.Combine(builder.Environment.ContentRootPath, dbFileName);
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlite($"Data Source={dbPath}"));
+
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    // Usuwamy 'await', aby Tailwind nie blokował startu serwera
-    // Metoda RunTailwind powinna uruchomić proces w tle
-    app.RunTailwind("dev"); 
-}
-else
+if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error", createScopeForErrors: true);
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles(); // To musi być przed Antiforgery i Mapowaniem!
+
+
+app.UseStaticFiles(); 
 app.UseAntiforgery();
+
 
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();

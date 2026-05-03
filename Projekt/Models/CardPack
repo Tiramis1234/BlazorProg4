@@ -1,0 +1,15 @@
+using System;
+using System.Collections.Generic;
+
+namespace Projekt.Models
+{
+    public class CardPack
+    {
+        public int Id { get; set; }
+        public string PackName { get; set; } 
+        public DateTime OpenedAt { get; set; } = DateTime.Now;
+
+        // Relacja: Jedna paczka zawiera wiele kart
+        public List<Card> Cards { get; set; } = new List<Card>();
+    }
+}
