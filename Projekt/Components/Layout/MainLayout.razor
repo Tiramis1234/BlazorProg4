@@ -1,0 +1,18 @@
+﻿@inherits LayoutComponentBase
+
+<div class="min-h-screen bg-white flex flex-col font-sans">
+    @* Nawigacja - prosta i lekka *@
+    <header class="border-b border-gray-100">
+        <div class="max-w-5xl mx-auto">
+            <NavMenu />
+        </div>
+    </header>
+
+    @* Główna sekcja strony *@
+    <main class="flex-grow flex items-center justify-center">
+        <div class="w-full">
+            @Body
+        </div>
+    </main>
+
+</div>
